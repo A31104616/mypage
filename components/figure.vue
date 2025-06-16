@@ -83,10 +83,10 @@ export default {
 <style scoped>
 .figure-container {
   position: fixed;
-  bottom: 64px;
+  bottom: 0px;
   left: 0;
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin-bottom: 0;
   display: flex;
   justify-content: center;
@@ -97,7 +97,7 @@ export default {
 
 .figure-image {
   width: auto;
-  height: 400px;
+  height: 500px;
   max-width: none;
   object-fit: contain;
   cursor: pointer;
@@ -106,7 +106,7 @@ export default {
 
 .chat-dialog {
   position: fixed;
-  bottom: 420px;
+  bottom: 450px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
@@ -119,7 +119,7 @@ export default {
   border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: relative;
-  max-width: 400px;
+  max-width: 600px;
   margin-bottom: 5px;
 }
 

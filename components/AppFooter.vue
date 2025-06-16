@@ -13,5 +13,6 @@
   color: white;
   text-align: center;
   padding: 20px;
+  z-index: 1000;
 }
 </style>

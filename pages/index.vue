@@ -1,6 +1,6 @@
 <!-- pages/index.vue -->
 <template>
-  <div>
+  <div class="figure-container">
     <Figure
     imageUrl="/drawings/自設_人物.png"
       :dialogs="[
@@ -23,3 +23,16 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.figure-container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+</style>
