@@ -18,6 +18,7 @@
         <section class="skills-section">
           <h2>Skills</h2>
           <div class="skills-grid">
+            <div class="skill-item">Nuxt.js</div>
             <div class="skill-item">Vue.js</div>
             <div class="skill-item">matlab</div>
             <div class="skill-item">python</div>
@@ -75,10 +76,10 @@
 .profile-header {
   text-align: center;
   padding: 2rem;
-background-color: #B6FDFF;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23040515' stroke-width='71.4' stroke-opacity='0.19' %3E%3Ccircle fill='%23B6FDFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23adf0f5' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23a3e2eb' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%239ad5e1' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%2390c7d7' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2387bacd' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%237dacc3' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23749fb9' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%236a91af' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%236184a5' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2357769b' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%234e6991' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23445b87' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%233b4e7d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23314073' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23283369' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%231e255f' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23151855' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
+  background-color: #B6FDFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23040515' stroke-width='71.4' stroke-opacity='0.19' %3E%3Ccircle fill='%23B6FDFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23adf0f5' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23a3e2eb' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%239ad5e1' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%2390c7d7' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2387bacd' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%237dacc3' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23749fb9' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%236a91af' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%236184a5' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2357769b' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%234e6991' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23445b87' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%233b4e7d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23314073' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23283369' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%231e255f' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23151855' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
 }
 
