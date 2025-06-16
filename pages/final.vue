@@ -74,7 +74,8 @@ const title = '期末專題網站'
   box-sizing: border-box; /* 確保 padding 不會增加容器大小 */
 }
 .content {
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   margin: 2rem;
   background-color: #ffffff;
   border-radius: 15px;
@@ -152,5 +153,6 @@ p {
   .profile-card {
     border-radius: 0;
   }
+
 }
 </style>
