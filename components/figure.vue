@@ -106,7 +106,7 @@ export default {
 
 .chat-dialog {
   position: fixed;
-  bottom: 550px;
+  bottom: 575px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
