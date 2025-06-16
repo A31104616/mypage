@@ -1,11 +1,6 @@
 <!-- pages/index.vue -->
 <template>
   <div>
-    <h1>歡迎來到首頁</h1>
-    <AppAlert>
-      這是首頁的內容
-    </AppAlert>
-    <NuxtLink to="/intro">前往關於頁面</NuxtLink>
     <Figure
     imageUrl="/drawings/自設_人物.png"
       :dialogs="[

@@ -82,11 +82,12 @@ export default {
 
 <style scoped>
 .figure-container {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 400px;
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,7 +110,7 @@ export default {
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
-  animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .chat-bubble {

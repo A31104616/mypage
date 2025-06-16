@@ -18,7 +18,7 @@
         <section class="skills-section">
           <h2>Skills</h2>
           <div class="skills-grid">
-            <div class="skill-item">Nuxt.js</div>
+            <div class="skill-item">Nuxt 3</div>
             <div class="skill-item">Vue.js</div>
             <div class="skill-item">matlab</div>
             <div class="skill-item">python</div>

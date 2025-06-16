@@ -75,7 +75,7 @@ const title = '期末專題網站'
 }
 .content {
   width: 800px;
-  margin: 1rem;
+  margin: 2rem;
   background-color: #ffffff;
   border-radius: 15px;
 }
