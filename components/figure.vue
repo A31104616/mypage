@@ -86,7 +86,7 @@ export default {
   bottom: 0px;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 550px;
   margin-bottom: 0;
   display: flex;
   justify-content: center;
@@ -97,7 +97,7 @@ export default {
 
 .figure-image {
   width: auto;
-  height: 500px;
+  height: 550px;
   max-width: none;
   object-fit: contain;
   cursor: pointer;
@@ -106,7 +106,7 @@ export default {
 
 .chat-dialog {
   position: fixed;
-  bottom: 450px;
+  bottom: 550px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
@@ -145,5 +145,16 @@ export default {
   }
 }
 
+@media (max-height: 565px) {
+  .chat-dialog {
+    bottom: 446px;
+  }
+  .figure-container {
+    height: 500px;
+  }
 
+  .figure-image {
+    height: 500px;
+  }
+}
 </style>
