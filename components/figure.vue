@@ -83,7 +83,7 @@ export default {
 <style scoped>
 .figure-container {
   position: fixed;
-  bottom: 0;
+  bottom: 64px;
   left: 0;
   width: 100%;
   height: 400px;
