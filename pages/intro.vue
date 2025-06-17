@@ -12,7 +12,7 @@
       <div class="profile-content">
         <section class="about-section">
           <h2>About Me</h2>
-          <p>一個會因為好奇而到處學習的好奇人</p>
+          <p>一個會因為一點好奇而到處學習的好奇人，所以如以下所見，專業跟興趣的技能樹點得挺歪的。</p>
         </section>
 
         <section class="skills-section">
@@ -29,14 +29,7 @@
         <h2>Interests</h2>
         <InterestList />
 
-        <section class="contact-section">
-          <h2>Contact</h2>
-          <div class="contact-links">
-            
-            <a href="https://github.com/yourusername"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          </div>
-        </section>
+        
       </div>
     </div>
   </div>
@@ -138,6 +131,11 @@ h2 {
   font-size: 0.9rem;
   color: #555;
   border: 1px solid #eee;
+  transition: ease-in-out 0.3s;
+}
+
+.skill-item:hover {
+  background: #d4f9ff;
 }
 
 .contact-links {

@@ -55,7 +55,7 @@ export default {
           id: 2,
           imageUrl: '/intro/photo.jpg',
           title: '攝影',
-          description: '一開始是為了練習構圖而開始接觸攝影，後來開始享受攝影風景、物件的樂趣'
+          description: '一開始是為了練習構圖而開始接觸攝影，後來開始享受攝影風景、物件的樂趣。'
         },
         {
           id: 3,

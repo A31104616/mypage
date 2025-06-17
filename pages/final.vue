@@ -6,6 +6,7 @@
           <h2>{{ title }}</h2>
           <p>此網站為影像展示網站，展示內容可分為繪圖與攝影兩大類。使用者能分別瀏覽攝影或繪圖作品，並能透過標籤（Tag）搜尋作品。</p>
           <div class="skills-grid">
+            <div class="skill-item">Nuxt 3</div>
             <div class="skill-item">Firestorage</div>
             <div class="skill-item">Firestore</div>
             <div class="skill-item">Router</div>
@@ -91,6 +92,11 @@ const title = '期末專題網站'
   position: relative;
   margin: 0 auto; 
   margin-bottom: 1rem;
+  transition: ease-in-out 0.3s;
+}
+.profile-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform:scale(1.02);
 }
 
 .profile-content {
@@ -147,6 +153,11 @@ p {
   font-size: 0.9rem;
   color: #555;
   border: 1px solid #eee;
+  transition: ease-in-out 0.3s;
+}
+
+.skill-item:hover {
+  background: #d4f9ff;
 }
 
 @media (max-width: 768px) {
