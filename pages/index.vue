@@ -7,7 +7,7 @@
         '歡迎來到我的網站！',
         '如果想了解我的資訊，請點擊關於介面或是<a href=\'/intro\' class=\'dialog-link\'>這裡</a>！',
         '如果想了解期末專題的部分，請點擊期末專題介面或是<a href=\'/final\' class=\'dialog-link\'>這裡</a>！',
-        'See you next time!'
+        '希望有幫助你了解這個網站！'
       ]"
     />
   </div>
