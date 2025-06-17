@@ -59,7 +59,7 @@ export default {
         },
         {
           id: 3,
-          imageUrl: '/intro/music.JPG',
+          imageUrl: '/intro/music.jpg',
           title: '音樂',
           description: '聽音樂是我生活中不可或缺的一部分，尤其鍾愛無損音樂帶來的細膩聽覺體驗。'
         },

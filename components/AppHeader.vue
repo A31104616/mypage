@@ -6,7 +6,6 @@
             <HomeIcon :size="25" color="#FFFFFF" />
         </NuxtLink>
         <div class="nav-links">
-            <NuxtLink to="/">首頁</NuxtLink>
             <NuxtLink to="/intro">關於</NuxtLink>
             <NuxtLink to="/final">期末專題</NuxtLink>
         </div>
